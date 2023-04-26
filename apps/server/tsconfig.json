@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "outDir": "../../dist/server",
+    "module": "ES2015",
+    "types": ["node"],
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+		"esModuleInterop": true,
+    "target": "es2015",
+    "declaration": false,
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "lib": ["es2017"],
+  },
+  "include": ["src/**/*.ts"]
+}
